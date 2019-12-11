@@ -4,8 +4,8 @@ From:ubuntu:latest
 %runscript
     exec echo "haha!"
 %post
-    sudo apt-get update 
-    sudo apt-get install python3-pip
+    apt-get update 
+    apt-get install python3-pip
     apt-get install python3-sklearn python3-sklearn-lib python3-sklearn-doc
     pip install --upgrade pip	
     pip install numpy
