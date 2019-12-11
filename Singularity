@@ -12,7 +12,6 @@ From:ubuntu:latest
     pip install numpy
     pip install pandas
     pip install tensorflow
-    pip install keras
-	
+    pip install keras	
     echo "The post section is where you can install, and configure your container."
 
