@@ -5,12 +5,14 @@ From:ubuntu:latest
     exec echo "haha!"
 %post
     apt-get update 
-    apt-get install python3-pip
-    apt-get install python3-sklearn python3-sklearn-lib python3-sklearn-doc
-    pip install --upgrade pip	
-    pip install numpy
-    pip install pandas
-    pip install tensorflow
-    pip install keras	
+    apt-get install -y git wget python3-dev python3-pip
+    pip3 install --upgrade pip
+    pip3 install numpy
+    pip3 install matplotlib
+    pip3 install scipy
+    pip3 install sklearn
+    pip3 install tensorflow
+    pip3 install keras
+    pip3 install pandas
     echo "The post section is where you can install, and configure your container."
 
