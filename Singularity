@@ -11,7 +11,6 @@ From:continuumio/miniconda3
     /opt/conda/bin/conda install -c conda-forge keras
     /opt/conda/bin/conda install -c anaconda psutil
     /opt/conda/bin/conda install -c conda-forge xgboost
-    /opt/conda/bin/conda install -c anaconda argparse
     /opt/conda/bin/conda install -c anaconda simplejson
     
     
