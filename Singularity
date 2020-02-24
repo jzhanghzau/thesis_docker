@@ -8,6 +8,7 @@ From:continuumio/miniconda3
     /opt/conda/bin/conda install -c ankurankan pgmpy
     /opt/conda/bin/conda install pip
     /opt/conda/bin/pip install bnlearn
+    /opt/conda/bin/conda install -c conda-forge networkx
     /opt/conda/bin/conda install numpy matplotlib scikit-learn 
     /opt/conda/bin/conda install -c conda-forge tensorflow
     /opt/conda/bin/conda install -c anaconda pandas
