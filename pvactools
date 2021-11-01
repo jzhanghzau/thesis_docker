@@ -1,0 +1,12 @@
+FROM continuumio/anaconda3
+
+# Create the environment:
+COPY pvactools.yml .
+RUN conda env create -f pvactools.yml
+
+SHELL ["/bin/bash", "-c"]
+
+RUN echo "source activate pvactools enviroment" > ~/.bashrc
+ENV PATH /opt/conda/envs/env/bin:$PATH
+
+CMD ["/bin/bash"] 
